@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  color: #b8f1e8;
+  background-color: #1f1f1f ; 
+  font-family:Lato,sans-serif ;
+  margin-top : 20px;
+
+}
+h1{ 
+  color:#b3b600;
+  font-size:40px; 
+  font-family:roboto,sans-serif ;
+  margin:20px 0 ;
+  text-align: center ;
+  
+}
+
+.aplicacion-tareas{
+  display:flex;
+  flex-wrap:wrap ;
+  justify-content:center ;
+  align-items:center ;
+  
+}
+/* diseño de logo de aplicacion tarea*/
+.logo-contenedor-tareas{
+  width:100% ;
+  margin:20px ;
+  display:flex ;
+  justify-content:center ;
+
+
+}
+
+
+
+.logo-tareas{
+  width:600px ;
+  height:250px ;
+}
+.lista-tareas{
+  width:600px ;
+  min-height:500px ;
+  margin: 10px; 
+  border-radius:26px;
+  padding: 26px;
+  background-color: #d0d0d0;
+  text-align: initial;
+
+  
+
+}
